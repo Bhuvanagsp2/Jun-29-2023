@@ -1,0 +1,48 @@
+body {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	background: rgb(48, 1, 27);
+}
+.container {
+	max-width: 800px;
+	margin-top: 10%;
+	margin-left: 20%;
+	padding: 20px;
+	text-align: center;
+	background-color: inherit;
+	border-radius: 10px;
+	box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 1);
+	color: #ffffff;
+}
+h1 {
+	color: #d3d3d3;
+}
+.dob-input {
+	width: 90%;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-size: 16px;
+	background-color: inherit;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+	outline: none;
+	color: #ccc;
+	cursor: text;
+}
+.calculate-button {
+	padding: 10px 20px;
+	font-size: 16px;
+	background-color: #2e8831;
+	color: #fff;
+	border: none;
+	border-radius: 15px;
+	cursor: pointer;
+}
+.calculate-button:hover {
+	background-color: #45a049;
+}
+.result {
+	margin-top: 20px;
+	font-size: 24px;
+	font-weight: bold;
+	color: pink;
+}
